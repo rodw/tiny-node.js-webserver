@@ -12,7 +12,7 @@ There are [many other](https://github.com/joyent/node/wiki/modules#wiki-web-fram
 
 Sometimes you just need a little webserver.  
 
-Specifically, web browsers often treat resources served from local `file://` URLs slightly differently those via `http://` URLs.  The tnws offers a quick-and-dirty way to serve local files over HTTP, which can come in handy when developing web applications based on local HTTP/JS/CSS files, etc.
+Specifically, web browsers often treat resources served from local `file://` URLs slightly differently those served via `http://` URLs.  The tnws offers a quick-and-dirty way to serve local files over HTTP, which can come in handy when developing web applications based on local HTTP/JS/CSS files, etc.
 
 ## How do I use it?
 
@@ -66,4 +66,4 @@ These arguments are all optional.
 
 ## Licensing 
 
-The tnws is distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php), as specified in [`LICENSE.txt`](./LICENSE.txt) and in the [`twns.coffee`](./LICENSE.txt) file itself.
+The tnws is distributed under the [MIT License](http://www.opensource.org/licenses/mit-license.php), as specified in [`LICENSE.txt`](https://raw.github.com/rodw/tiny-node.js-webserver/master/LICENSE.txt) and in the [`tnws.coffee`](https://raw.github.com/rodw/tiny-node.js-webserver/master/tnws.coffee) file itself.
